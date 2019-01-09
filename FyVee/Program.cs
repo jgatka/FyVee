@@ -14,6 +14,7 @@ namespace FyVee
         {
             string PressAnyKey = "Press any key to continue...";
             #region Races
+            
             //list of available races
             List<string> Races = new List<string>();
             Races.Add("Dwarf");
@@ -42,11 +43,10 @@ namespace FyVee
 
             //Get character name
             Console.WriteLine("What is the name of the new character?");
-            CurrentHero.CharacterName = Console.ReadLine();
+            CurrentHero.Name = Console.ReadLine();
 
             //TODO - Select a race
 
-            
         }
     }
 }
