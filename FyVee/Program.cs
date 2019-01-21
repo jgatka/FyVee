@@ -28,7 +28,28 @@ namespace FyVee
             Races.Add("Tiefling");
 
             #endregion
-
+            #region Languages
+            //List of available languages in 5E
+            List<string> Languages = new List<string>();
+            //Standard Languages:
+            Languages.Add("Common");
+            Languages.Add("Dwarvish");
+            Languages.Add("Elvish");
+            Languages.Add("Giant");
+            Languages.Add("Gnomish");
+            Languages.Add("Goblin");
+            Languages.Add("Halfling");
+            Languages.Add("Orc");
+            //Exotic languages:
+            Languages.Add("Abyssal");
+            Languages.Add("Celestial");
+            Languages.Add("Deep Speech");
+            Languages.Add("Draconic");
+            Languages.Add("Infernal");
+            Languages.Add("Primordial");
+            Languages.Add("Sylvan");
+            Languages.Add("Undercommon");
+            #endregion
             //Create a new hero
             var CurrentHero = new Hero();
 
